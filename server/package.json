@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node --watch server",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "fs-extra": "^11.2.0",
+    "pg": "^8.13.1",
+    "postgres": "^3.4.5"
+  },
+  "devDependencies": {
+    "supabase": "^1.207.9"
+  },
+  "description": ""
+}
